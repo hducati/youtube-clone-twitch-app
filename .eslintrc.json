@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "import/extensions": ["error", "ignorePackages", { "ts": "never", "tsx": "never" }],
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
